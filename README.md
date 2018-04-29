@@ -1,4 +1,4 @@
-# AUD Bucket List
+# My Bucket List
 This is the final project submisson for the Mobile Applications course project. This is my simple Bucket List app, where users will be able to
 open this app and add items to their bucket list of things that they want to do before or after graduation. Each
 item will have a name, description, location (latitude and longitude using google maps), and a way to
