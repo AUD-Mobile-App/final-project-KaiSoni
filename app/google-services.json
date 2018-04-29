@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1067229348744",
+    "project_id": "complete-galaxy-198608"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067229348744:android:48e5536abe5ee3a8",
+        "android_client_info": {
+          "package_name": "hotbit.com.bucketlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067229348744-2h1839o8eiqo8jmq5fjv7j52v7p46s6r.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1067229348744-v2mum8h0i8r8bci6od79hj2uura1k35c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hotbit.com.bucketlist",
+            "certificate_hash": "e052bde096ca46b8a5e7d135b7c828042de1e982"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrmKlEH5uq0gpmuicAqApfj30IS3TtJMY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

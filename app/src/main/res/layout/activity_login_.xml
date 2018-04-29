@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"></android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/logImgView"
+            android:layout_width="wrap_content"
+            android:layout_height="122dp"
+            android:layout_above="@+id/loginCardData"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/logo" />
+
+        <RelativeLayout
+            android:id="@+id/loginCardData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="113dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="16dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/emailTxtInput"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp">
+
+                <EditText
+                    android:id="@+id/emailET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/emailHint"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="5dp"
+                    android:textSize="20sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/pwdTxtInput"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_below="@+id/emailTxtInput"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <EditText
+                    android:id="@+id/pwdET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pwdHint"
+                    android:inputType="textPassword"
+                    android:paddingLeft="5dp"
+                    android:textSize="20sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/pwdTxtInput"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_border"
+                android:text="@string/loginbtnTxt"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/signupNowTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/loginBtn"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/signupTxt"
+                android:textColor="@color/textColor"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

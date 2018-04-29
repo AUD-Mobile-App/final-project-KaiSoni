@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a60017</color>
+    <color name="colorPrimaryDark">#a60017</color>//app side color
+    <color name="colorAccent">#a60017</color>
+
+    //app color from hear
+    <color name="firstColor">#a60017</color>
+    <color name="secodtColor">#a60017</color>
+    <color name="textColor">#2A2A2A</color>
+    <color name="white">#ffffff</color>
+    <color name="button_corner_color">#212121</color>
+
+</resources>
